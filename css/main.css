@@ -1,0 +1,36 @@
+/*style for section B*/
+#section-b .row{
+       margin-top: 30px;
+}
+#section-b .card img:hover{
+    opacity: 0.2;
+}
+#section-b .card img{
+    width: 100%;
+    height: 200px;
+   }
+#section-b .card:hover {
+    box-shadow: 3px 3px 3px 3px #eddc3a;
+}
+/*Style for section C*/
+#section-c{
+       margin-top: 15px;
+
+}
+#section-c #section-c-left{
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    height: 80vh;
+
+}
+#section-c #section-c-right{
+    background-image: url("../images/download.jpg");
+    padding: 20px;
+   color: white;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
