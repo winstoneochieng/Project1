@@ -22,7 +22,7 @@
     font-family: monospace;
     font-weight: bold;
     text-align: center;
-    height: 80vh;
+    height: 50vh;
 
 }
 #section-c #section-c-right{
@@ -32,5 +32,42 @@
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 50vh;
+}
+/*.auth-img{*/
+/*    width: 15px;*/
+/*    height: auto;*/
+/*}*/
+
+/*!*signup section*!*/
+/*#signup-section fieldset{*/
+/*    margin-top: 30px;*/
+/*    border: 2px rgba(0, 0, 0, 0.26) solid;*/
+/*    !*background-color: rgba(226, 62, 0, 0.21);*!*/
+/*    padding: 20px;*/
+/*    border-radius: 15px;*/
+/*    font-family: monospace;*/
+/*    box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.32);*/
+/*}*/
+/*#signup-section fieldset img{*/
+/*    !*border: 3px solid rgba(0, 0, 122, 0.85);*!*/
+/*    border-radius: 50%;*/
+/*    text-align: center;*/
+/*    margin-left: 100px;*/
+/*}*/
+
+#signup-section fieldset, #login-section fieldset{
+    margin-top: 30px;
+    border: 2px rgba(0, 0, 0, 0.26) solid;
+    /*background-color: rgba(226, 62, 0, 0.21);*/
+    padding: 20px;
+    border-radius: 15px;
+    font-family: monospace;
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 0, 0.32);
+}
+#signup-section fieldset img,#login-section fieldset img{
+    /*border: 3px solid rgba(0, 0, 122, 0.85);*/
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 170px;
 }

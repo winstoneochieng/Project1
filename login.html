@@ -7,7 +7,9 @@
 
     <!-- Bootstrap CSS online-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\winstone.ochieng\PhpstormProjects\MIT2020Evening\Uber\css\main.css">
     <!--   Bootstrap local-->
+    <link rel="stylesheet" href="bootsrap\css\bootstrap.min.css">
     <!--    Custom css-->
     <link rel="stylesheet" href="css/main.css">
     <title>Hello, world!</title>
@@ -26,13 +28,13 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="login.html">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Signup</a>
+                <a class="nav-link" href="signup.html">Signup</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,9 +57,38 @@
         </form>
     </div>
 </nav>
-<!--Carousel-->
+<!--Login section-->
+<section id="login-section">
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <h3>Login here...</h3>
+                <form action="" method="post">
+                    <fieldset>
+                        <div class="auth-img">
+                            <img src="images/sign_up_icon.png" alt="" width="130px" height="auto">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Username</label>
+                            <input type="text" name="username" class="form-control">
+                        </div>
 
 
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" name="pass1" class="form-control">
+                        </div>
+
+                        <button class="btn btn-warning">Create account</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3"></div>
+        </div>
+    </div>
+
+</section>
 <!--Footer-->
 <Footer>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, repellendus!</p>
