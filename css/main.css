@@ -71,3 +71,26 @@
     text-align: center;
     margin-left: 170px;
 }
+
+/*about page*/
+#section-about .bg-image{
+    /*background-color: #0f6674;*/
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("../images/images (1)-about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+}
+.container{
+    padding: 15px;
+    /*background-color: rgba(255, 255, 0, 0.15);*/
+}
+.container .jumbotron{
+    padding: 10px;
+    background-color: #f9ba0c;
+}
